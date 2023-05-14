@@ -11,7 +11,7 @@
     <table class="table table-striped">
       <thead>
         <tr class="table-success">
-          <th>Asignatura</th>
+          <th class="w-25">Asignatura</th>
           <th>Clave</th>
           <th>Créditos</th>
           <th>Lunes</th>
@@ -19,7 +19,7 @@
           <th>Miércoles</th>
           <th>Jueves</th>
           <th>Viernes</th>
-          <th>Docente</th>
+          <th class="w-25">Docente</th>
         </tr>
       </thead>
       <tbody>
