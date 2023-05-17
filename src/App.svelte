@@ -2,8 +2,8 @@
     import CreateTable from './createTable.svelte';
 
     const numSemestres = [1,3,5,7,9]
-    const turno = 'matutino'
-    // const turno = 'vespertino'
+    // const turno = 'matutino'
+    const turno = 'vespertino'
 
 
 </script>
@@ -13,7 +13,8 @@
     <h1 class="mx-auto">Horarios</h1>
   </nav>
   <div class="container">
-    <CreateTable {numSemestres} {turno} />
+    <CreateTable {numSemestres} turno={'matutino'} />
+    <CreateTable {numSemestres} turno={'vespertino'} />
   </div>
 
 
